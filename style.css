@@ -1,0 +1,129 @@
+.globlaWidth {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-size:cover;
+}
+
+
+#button {
+    padding: 0;
+}
+
+#button li {
+    display: inline;
+}
+
+#button li a {
+    text-decoration: none;
+    font-size: 19px;
+    float: right;
+    padding: 10px;
+    color: white;
+}
+
+.nav {
+    margin: 0;
+    display: flex;
+    height: 50px;
+}
+
+.nav__menu {
+    background-color: #343a40;
+    margin: 0;
+}
+
+.header {
+    display:grid ;
+    margin-top: 0;
+    /*background-color: cornflowerblue;*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,221,164,1) 0%, rgba(0,212,255,1) 100%);
+
+    text-align: center;
+    height: 400px;
+}
+
+.header__name h1 {
+    font-size: 80px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.header__name p {
+    font-size: 20px;
+}
+
+.info {
+    background-color: #e2e2df;
+    margin: 20px;
+    text-align: center;
+}
+
+.info picture img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    border: black 2px solid;
+    margin-top: 50px;
+}
+
+.info h2 {
+    font-size: 25px;
+}
+
+.contac {
+    height: 90px;
+    background-color: #6c757d;
+}
+
+.contac div a {
+    padding: 14px;
+}
+
+.footer {
+    background-color: #343a40;
+    height: 50px;
+    float: inline-end;
+    text-align: center;
+    display: grid;
+    margin: 0;
+}
+
+.footer picture img {
+    float: center;
+
+}
+
+/*Certificates.html*/
+
+.certificates {
+    margin: 40px;
+    background-color: #f8f9fa;
+    content: "";
+    display: grid;
+    clear: both;
+}
+
+.certificates h1 {
+    margin: 30px;
+    font-size: 25px;
+}
+
+.certificates h1 img {
+    width: 50px;
+}
+
+.certificates__courses img{
+    width: 30%;
+    margin: 20px;
+    min-width: 40%;
+    border: black 1px solid;
+}
+
