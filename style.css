@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.sections {
+    /*background-color: #e2e2df;*/
+    margin: 20px;
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -22,34 +27,50 @@ body {
     text-decoration: none;
     font-size: 19px;
     float: right;
-    padding: 10px;
+    padding: 5px;
     color: white;
+    min-width: 2px;
+}
+
+#button li a::before {
+    border: 2px black solid;
 }
 
 .nav {
     margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
 }
 
 .nav__menu {
     background-color: #343a40;
     margin: 0;
+    text-align: center;
 }
 
 .header {
     display:grid ;
     margin-top: 0;
     /*background-color: cornflowerblue;*/
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,221,164,1) 0%, rgba(0,212,255,1) 100%);
+    /*background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(184,221,164,1) 0%, rgba(0,212,255,1) 100%);*/
+    background-color: #08AEEA;
+    background-image: -webkit-linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-image: -moz-linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-image: -o-linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+
 
     text-align: center;
-    height: 400px;
+    /*height: 400px;*/
+    height: 680px;
 }
 
 .header__name h1 {
-    font-size: 80px;
-    margin-top: 150px;
+    font-size: 88px;
+    margin-top: 200px;
     margin-bottom: 0;
     text-decoration: none;
     color: black;
@@ -60,8 +81,24 @@ body {
     font-size: 20px;
 }
 
+.Social a img {
+    width: 50px;
+    padding: 10px;
+}
+
+.menu {
+    margin-top: 10px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+}
+
 .info {
-    background-color: #e2e2df;
     margin: 20px;
     text-align: center;
 }
@@ -105,7 +142,7 @@ body {
 
 .certificates {
     margin: 40px;
-    background-color: #f8f9fa;
+    /*background-color: #f8f9fa;*/
     content: "";
     display: grid;
     clear: both;
@@ -126,4 +163,62 @@ body {
     min-width: 40%;
     border: black 1px solid;
 }
+
+.moreInfo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreInfo article {
+    margin: 1%;
+}
+
+.moreInfo article img {
+    width: 40px;
+    min-width: 5px;
+}
+
+.moreInfo article h1 {
+    font-size: 105%;
+}
+
+.featuredProjects {
+    max-height: 450px;
+}
+
+.featuredProjects h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.projects {
+    /*background-color: #6c757d;*/
+    margin: 25px;
+    height: 365px;
+}
+
+.projects h2 {
+    margin-left: 10%;
+}
+
+.projectsLef {
+    text-decoration: none;
+    color: black;
+}
+
+.projectsLef p {
+    
+}
+
+.projectsLef p img{
+    width: 450px;
+    max-width: 100%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 7%;
+}
+
+
 
