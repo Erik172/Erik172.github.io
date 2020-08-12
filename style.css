@@ -124,6 +124,11 @@ body {
     padding: 14px;
 }
 
+.contac div a img {
+    width: 45px;
+    margin-top: 18px;
+}
+
 .footer {
     background-color: #343a40;
     height: 50px;
@@ -167,7 +172,6 @@ body {
 .moreInfo {
     display: flex;
     text-align: center;
-    align-items: center;
     justify-content: center;
 }
 
@@ -219,6 +223,3 @@ body {
     margin-right: 30px;
     margin-left: 7%;
 }
-
-
-
