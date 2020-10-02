@@ -2,171 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="shortcut icon" href="static/favicon/favico.png" type="image/png">
     <title>Erik Garcia</title>
 </head>
 <body>
-
-    <header class="header globlaWidth">
-        <div class="header__name">
-            <h1>Erik Garcia</h1>
-            <p>Software Programmer</p>
-
-            <section class="Social">
-
-                <a href="mailto:alejod172@gmail.com">
-                    <img src="https://img.icons8.com/windows/96/000000/composing-mail.png"/>
-                </a>
-
-                <a href="https://github.com/Erik172">
-                    <img src="https://img.icons8.com/ios-filled/50/000000/github.png"/>
-                </a>
-
-                <a href="https://www.linkedin.com/in/erik172/">
-                    <img src="https://img.icons8.com/ios-filled/96/000000/linkedin.png"/>
-                </a>
-            </section>
-
-            <section class="menu">
-                <a href="#">Inicio</a>
-                <a href="certificates.html">Certificates</a>
-                <a href="">Projects</a>
-                <a href="">about me</a>
-            </section>
+    <nav class="nav">
+        <div class="nav_logo">
+            <img src="static/Erik172-logo/vector/default-monochrome-white.svg" alt="Logo">
         </div>
-    </header>
 
-    <!--<nav class="nav globlaWidth">
-        <div class="nav__menu globlaWidth">
-            <ul id="button">
-                <li><a href="#contac">Contactame</a></li>
-                <li><a href="certificates.html">Certificates</a></li>
-                <li><a href="#">Portafolio</p></li>
-                <li><a href="#">Sobre Mi</p></li>
-                <li><a href="#">Inicio</a></li>
-            </ul>
+        <ul class="nav_list">
+            <li><a href="">Cerificates</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">About me</a></li>
+        </ul>
+
+        <div class="nav_mobile" id="menu_on">
+            <ion-icon name="menu" class="icon_menu_mobile"></ion-icon>
+            <span>
+                <ul class="nav_list-mobile" id="nav_list-mobile">
+                    <h3><strong>Menu</strong></h3>
+                    <hr class="hr_menu">
+                    <li><a href="">Cerificates</a></li>
+                    <hr class="hr_menu">
+                    <li><a href="">Projects</a></li>
+                    <hr class="hr_menu">
+                    <li><a href="">About me</a></li>
+                </ul>
+            </span>   
         </div>
-    </nav>-->
+    </nav>
 
-    <section class="info sections">
-        <picture>
-            <center>
-                <img src="https://avatars3.githubusercontent.com/u/51425933?s=460&u=87bc68f086f2a513d6cd1fff5f8cf0e583b958a7&v=4" alt="Erik Alejandro Garcia Duarte">
-            </center>
-        </picture>
-
-        <h2>Erik Alejandro Garcia Duarte</h2>
-        <p>Colombia, Bogotá | alejod172@gmail.com</p>
-
-        <p> I am a person with a passion for technology and computing who never wants to stop learning. </p>
-    </section>
-
-    <section class="moreInfo sections">
-        <article>
-            <h1>Programming Lenguages</h1>
-
-            <img src="https://img.icons8.com/color/240/000000/python.png"/>
-            <img src="https://img.icons8.com/color/240/000000/c-sharp-logo.png"/>
-            <!--<img src="https://img.icons8.com/color/144/000000/javascript-logo-1.png"/>-->
-            <img src="https://img.icons8.com/ios-filled/500/000000/javascript-logo.png"/>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quisquam quo aperiam debitis. Maxime voluptatum facilis delectus aperiam impedit ipsa possimus exercitationem sunt deserunt, nam pariatur itaque, recusandae quibusdam rerum?
-            </p>
-        </article>
-
-        <article>
-            <h1>Desing</h1>
-
-            <img src="https://img.icons8.com/color/480/000000/html-5.png"/>
-            <img src="https://img.icons8.com/color/480/000000/css3.png"/>
-
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit unde dolore neque pariatur error quidem magnam amet, quos tempore vero praesentium, eius corrupti rerum quae, odit minima eaque possimus assumenda.
-            </p>
-        </article>
-
-        <article>
-            <h1>Tools</h1>
-
-            <img src="https://img.icons8.com/color/480/000000/git.png"/>
-            <img src="https://img.icons8.com/plasticine/100/000000/visual-studio-code-2019.png"/>
-
-            <p>
-                The tools for programmers are of vital importance, so I keep up to date on the automation of tasks and others.
-            </p>
-        </article>
-    </section>
-
-    <section class="project">
-            <div class="project-details">
-                <h2 class="project-details__title">Z0172CK Tools</h2>
-                <p class="project-details__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam, optio mollitia reprehenderit temporibus neque consequuntur. Dolorem corrupti ab nemo enim deleniti fugiat obcaecati, quam molestiae, explicabo laborum officia doloribus.</p>
-                <div class="project-details__url">
-                    <a href="https://erik172.github.io/Z0172CK-Tools/index.html">Site Web</a>
-                    <a href="https://github.com/Erik172/Z0172CK-Tools">Source Code</a>
-                </div>
-            </div>
     
-            <figure class="project-image">
-                <img class="project-image__img" src="https://imgur.com/cPMN9wt.png" alt="Project Z0172CK Tools">
-            </figure>
-    </section>
 
-    <section class="project">
-        <div class="project-details">
-            <h2 class="project-details__title">Platzi Video</h2>
-            <p class="project-details__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ullam, optio mollitia reprehenderit temporibus neque consequuntur. Dolorem corrupti ab nemo enim deleniti fugiat obcaecati, quam molestiae, explicabo laborum officia doloribus.</p>
-            <div class="project-details__url">
-                <a href="https://erik172.github.io/PlatziVideo/index.html">Site Web</a>
-                <a href="https://github.com/Erik172/PlatziVideo">Source Code</a>
-            </div>
-        </div>
-
-        <figure class="project-image">
-            <img class="project-image__img" src="https://i.imgur.com/zL6ojKi.png" alt="Project Z0172CK Tools">
-        </figure>
-</section>
-
-
-    <section class="contac globlaWidth" id="contac">
-
-        <!--<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="horizontal" data-theme="dark" data-vanity="erik172">
-            <a class="LI-simple-link" href='https://co.linkedin.com/in/erik172?trk=profile-badge'>Erik Alejandro Garcia Duarte</a>
-        </div>-->
-
-        <div>
-            <center>
-                <a href="https://github.com/Erik172">
-                    <img src="https://img.icons8.com/cute-clipart/512/000000/github.png"/>
-                </a>
-    
-                <a href="https://www.linkedin.com/in/erik172/">
-                    <img src="https://img.icons8.com/cute-clipart/512/000000/linkedin.png"/>
-                </a>
-    
-                <a href="">
-                    <img src="https://img.icons8.com/cute-clipart/512/000000/instagram-new.png"/>
-                </a>
-
-                <a href="https://www.facebook.com/Erik172/">
-                    <img src="https://img.icons8.com/cute-clipart/512/000000/facebook.png"/>
-                </a>
-            </center>
+    <section class="welcome">
+        <div class="welcome_image">
+            <img class="welcome_image-img" src="https://media-exp1.licdn.com/dms/image/C4E03AQG7PF5aRxcQhQ/profile-displayphoto-shrink_200_200/0?e=1606953600&v=beta&t=A4S5qZu9da0JNyb8DishMxLLq9TBHnh20dPNRXKeIQA" alt="Erik172">
+            <!-- <img class="welcome_image-img" src="static/img/.jpeg" alt="Erik172"> -->
         </div>
     </section>
 
-    <footer class="footer globlaWidth">
-        <p>
-            Created By <strong>Erik</strong> 
-            <picture>
-                <img src="https://img.icons8.com/emoji/48/000000/green-heart.png" height="15" width="15"/>
-            </picture>
-        </p>
-    </footer>
+    <section class="presentation">
+        <div class="presentation_text">
+            <p>
+                Hello, my name is Erick and I am a Software Programming student and I also study in platzi
+            </p>
+        </div>
 
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+        <div class="presentation_social">
+            <a class="presentation_social-link" href="https://github.com/Erik172">
+                <ion-icon class="presentation_social-icon" name="logo-github"></ion-icon>
+            </a>
+
+            <!-- <a class="presentation_social-link" href="https://gitlab.com/Erik172">
+                <ion-icon class="presentation_social-icon" name="logo-gitlab"></ion-icon>
+            </a> -->
+
+            <a class="presentation_social-link" href="https://twitter.com/_Erik172">
+                <ion-icon class="presentation_social-icon" name="logo-twitter"></ion-icon>
+            </a>
+
+            <a class="presentation_social-link" href="https://www.linkedin.com/in/erik172/">
+                <ion-icon class="presentation_social-icon" name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>	
+
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+    </script>
+    
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $('#menu_on').click(function(){ // Al hacer click...
+            $('#nav_list-mobile').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+            })
+        });
+
+        $(document).ready(function() {
+            $('#menu_on').click(function() {
+                $('.icon_menu_mobile').toggleClass('dark');
+            })
+        });
+    </script>
 </body>
 </html>
