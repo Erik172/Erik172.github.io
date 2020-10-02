@@ -6,7 +6,13 @@
 
 const menu = document.querySelector('#nav_list-mobile')
 const burgerButton = document.querySelector('#menu_on')
+const iconMenu = document.querySelector(".icon_menu_mobile")
 
 burgerButton.addEventListener('click', function() {
 	menu.classList.toggle('visible_menu')
+	iconMenu.classList.toggle('dark')
 })
+
+// burgerButton.addEventListener('click', function() {
+// 	iconMenu.classList.toggle('dark')
+// })
