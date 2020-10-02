@@ -12,7 +12,3 @@ burgerButton.addEventListener('click', function() {
 	menu.classList.toggle('visible_menu')
 	iconMenu.classList.toggle('dark')
 })
-
-// burgerButton.addEventListener('click', function() {
-// 	iconMenu.classList.toggle('dark')
-// })

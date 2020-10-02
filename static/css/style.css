@@ -75,7 +75,7 @@ body {
 .nav_list-mobile li {
     list-style: none;
     padding: 5px;
-    background-color: #B1B2E7;
+    /* background-color: #B1B2E7; */
     margin-right: 20%;
     padding: 5px;
 }
@@ -87,13 +87,13 @@ body {
 }
 
 .nav_list-mobile li a {
-    text-decoration: none;
-    color: #000000;
+    text-decoration: underline;
+    color: #FFFFFF;
 }
 
 .visible_menu {
     display: flex;
-    background-color: #5e60ce;
+    background-color: #3B3D3F;
     background-image: url(static/img/download.png);
     opacity: 0.9;
     height: 50vh;
@@ -141,8 +141,8 @@ body {
 }
 
 .presentation_social a {
-    text-decoration: none;
     color: #000000;
+    text-decoration: none;
 }
 
 .presentation_social-icon {
