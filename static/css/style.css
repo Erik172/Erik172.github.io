@@ -178,6 +178,10 @@ body {
     /**Presentation**/
 
     .presentation_text {
-        /* margin: 5%; */
+        margin: 3.5% 15%;
+    }
+
+    .presentation_social {
+        margin: 2% 15%;
     }
 }
